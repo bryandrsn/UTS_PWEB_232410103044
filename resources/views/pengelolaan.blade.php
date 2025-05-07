@@ -24,8 +24,8 @@
                 </div>
             </div>
         @else
-            <div class="container d-flex justify-content-center align-items-center" style="min-height: 80vh;">
-                <h2 class="display-5 text-white text-center">Anda tidak memiliki list film favorit.</h2>
+            <div class="container d-flex justify-content-center align-items-center w-50" style="min-height: 100vh;">
+                @include("partials.noData")
             </div>
         @endif
     </article>
